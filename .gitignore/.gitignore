@@ -1,0 +1,153 @@
+*{
+font-family: 'floot-jazz';
+}
+body {
+    background: #ddd;
+}
+
+/*******[القائمة العلوية]********/
+div.navtop {
+    overflow: hidden;
+    height: 60px;
+    background-color: #375978;
+}
+div.navtop ul li a {
+    padding: 0 13px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+}
+div.navtop ul li a:hover {
+    text-decoration:none;
+}
+div.navtop ul li {
+    float: right;
+    display: block;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+div.navtop ul li:hover {
+    background: #1b3349;
+}
+
+div.navtop ul {
+    float: right;
+}
+div.navtop ul li i {
+    background: #ff8400;
+    float: right;
+    padding: 0 18px;
+    line-height: 60px;
+    color: #fff;
+    display: block;
+    font-size: 21px;
+}
+/*******[القائمة العلوية]********/
+div.logo .img-responsive{display: inline !important;}
+div.logo {
+    background: #fff;
+    padding: 10px 0;
+    margin: 60px auto 0 auto;
+    text-align: center;
+}
+
+div.topPost {background: #efefef;padding: 1px 0;margin: 0;border: 1px solid #ccc;}
+.bottomPost {padding: 2px;float: left;width: 25%;}
+.contPost{float:right;width:75%;padding:4px 2px;height: 0;}
+
+div.posts {
+    width: 70%;
+    float: right;
+    padding: 2px 8px;
+    margin-bottom: 7px;
+}
+div.post {
+    border: solid 1px #d2cece;
+    background: #f5f5f5;
+    width: 100%;
+    float: right;
+    padding: 2px;
+}
+
+/*******[القائمة الثانية]********/
+div.navbar {
+    overflow: hidden;
+    height: 65px;
+    background-color: #fff;
+    box-shadow: 2px 3.464px 9px 0 rgba(0,0,0,0.062);
+    border-top: 1px solid;
+    border-top-color: rgba(74,74,74,0.05);
+    margin-top:7px;
+}
+div.navbar ul{
+    float:right;
+}
+
+div.navbar ul li {
+    float: right;
+    display: block;
+    position: relative;
+    text-align: -webkit-match-parent;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+div.navbar ul li:hover {
+    transform: scale(0.5);
+    z-index: 99999999999999;
+}
+
+div.navbar ul li a:hover {
+    outline: 0;
+}
+div.navbar li:hover a {
+    background: #ff8400;
+    text-decoration: none;
+    color: #fff;
+    transform: scale(2);
+}
+
+div.navbar ul li a {
+    line-height: 60px;
+    padding: 0 17px;
+    color: #325370;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    background: transparent;
+}
+
+div.navbar ul li i {
+    padding: 0 18px;
+    line-height: 60px;
+    color: #ff8400;
+    display: block;
+    font-size: 21px;
+    float: right;
+}
+
+/*******[القائمة الثانية]********/
+
+
+@media screen and (max-width:768px){
+/*******[القائمة العلوية]********/
+    div.navtop ul, div.navbar ul{display:none;}
+    select{display:block;}
+}
+
+
+
+
+select{display:none;margin: 15px auto;}
+   ::-webkit-scrollbar {
+        background: #ffffff;
+        box-shadow: 2px 0px 0px #000;
+        width: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background:#FF8400;
+    }
+    ::-webkit-scrollbar-track {
+    }
